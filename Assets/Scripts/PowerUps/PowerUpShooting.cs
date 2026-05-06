@@ -1,0 +1,20 @@
+using UnityEngine;
+
+public class PowerUpShooting : MonoBehaviour
+{
+    [SerializeField] private AudioClip clipToPlay;
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Player"))
+        {
+            PlayerShooting player = collision.GetComponent<PlayerShooting>();
+            player.IncreaseUpgradeLevel(1);
+            AudioSource.PlayClipAtPoint(clipToPlay, transform.position, 1f);
+            Destroy(gameObject);
+        }
+    }
+    private void OnBecameInvisible()
+    {
+        Destroy(gameObject);
+    }   
+}
