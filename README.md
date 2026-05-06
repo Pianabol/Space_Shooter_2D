@@ -1,6 +1,18 @@
 #  2D Space Arcade (Learning Project)
 
-*A foundational 2D arcade shooter built with Unity. This project serves as an archive of my early steps into game development, 2D physics, and Unity engine mechanics, originally developed alongside a Udemy course.*
+*A foundational 2D arcade shooter built with Unity. This project serves as an archive of my early steps into game development, 2D physics, and Unity engine mechanics.*
+
+##  Gameplay & UI Showcase
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/84e8c9da-6542-40db-a9ea-48b5949f32c6" width="200" title="Start Screen" />
+  <img src="https://github.com/user-attachments/assets/25b1edca-ea1c-4667-86a4-b419b83dcb64" width="200" title="Level Selection" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bb67f2e8-127c-40c1-8020-924bceeda1c2" width="200" title="Shooting Mechanics" />
+  <img src="https://github.com/user-attachments/assets/02135e73-455d-43b1-affa-11364f94d851" width="200" title="Shield Power-up" />
+</p>
 
 ##  Features & Mechanics
 
